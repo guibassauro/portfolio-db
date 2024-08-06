@@ -1,11 +1,21 @@
-import './App.css';
 import { Outlet } from 'react-router-dom';
+import Cabecalho from './components/cabecalho';
+import Rodape from './components/rodape';
+import styled from "styled-components";
+
+const ContainerPrincipal = styled.div`
+  
+`
+
+
 
 function App() {
   return (
-    <div className="App">
-       <Outlet/>
-    </div>
+    <ContainerPrincipal>
+      <Cabecalho />
+      <Outlet/>
+      <Rodape />
+    </ContainerPrincipal>
   );
 }
 
