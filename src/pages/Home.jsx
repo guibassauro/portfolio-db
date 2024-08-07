@@ -16,7 +16,6 @@ const ContainerHome = styled.div`
         padding: 157px 50px 50px 50px;
         grid-template-columns: 1fr;
     }
-    
 `
 
 const Imagem = styled.img`
