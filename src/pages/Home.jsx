@@ -8,9 +8,15 @@ const ContainerHome = styled.div`
     min-height: 96vh;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    padding: 157px 100px 20px 100px;
+    padding: 157px 100px 50px 100px;
     width: 100%;
     gap: 10px;
+
+    @media (max-width: 968px) {
+        padding: 157px 50px 50px 50px;
+        grid-template-columns: 1fr;
+    }
+    
 `
 
 const Imagem = styled.img`

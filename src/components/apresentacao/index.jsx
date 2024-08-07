@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ContainerApresentacao = styled.div`
-    min-height: 48vh;
+    min-height: 35vh;
 `
 
 const Texto = styled.h1`
