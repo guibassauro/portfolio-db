@@ -10,7 +10,7 @@ const ContainerHome = styled.div`
     grid-template-columns: 1fr 1fr;
     padding: 157px 100px 50px 100px;
     width: 100%;
-    gap: 10px;
+    gap: 30px;
 
     @media (max-width: 968px) {
         padding: 157px 50px 50px 50px;
