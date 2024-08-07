@@ -21,6 +21,7 @@ const Titulo = styled.h1`
     font-size: 32px;
     font-Weight: 400;
     color: #292929;
+    font-family: ${props => props.fontFamily || 'supermolotBold'};
 `
 
 const Tecnologias = styled.div`
@@ -28,6 +29,7 @@ const Tecnologias = styled.div`
     font-Weight: 400;
     color: #ED177D;
     min-height: 42px;
+    font-family: ${props => props.fontFamily || 'supermolotBold'};
 `
 
 const Descricao = styled.div`
@@ -35,6 +37,7 @@ const Descricao = styled.div`
     font-Weight: 300;
     color: #292929;
     min-height: 133px !important;
+    font-family: ${props => props.fontFamily || 'supermolotBold'};
 `
 
 const Botao = styled.button`
@@ -45,6 +48,7 @@ const Botao = styled.button`
     width: 274px;
     border-radius: 8px;
     height: 44px;
+    font-family: ${props => props.fontFamily || 'supermolotBold'};
 `
 
 const Padding = styled.div`
@@ -59,7 +63,7 @@ function CardProjeto({imagem, titulo, tecnologias, descricao, link}){
             <Padding> 
                 <Titulo> {titulo} </Titulo>
                 <Tecnologias> {tecnologias} </Tecnologias>
-                <Descricao> {descricao} </Descricao>
+                <Descricao fontFamily={"robotoFlex"}> {descricao} </Descricao>
                 <Link to={link} style={{ display: 'flex', justifyContent: 'center' }}>
                     <Botao>Acessar</Botao>
                 </Link>

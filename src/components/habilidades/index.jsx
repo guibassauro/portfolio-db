@@ -13,6 +13,8 @@ const Texto = styled.h1`
     font-size: ${props => props.TamFonte || '18px'};
     font-Weight: ${props => props.Weight || '1px'};
     color: #292929;
+    font-family: ${props => props.fontFamily || 'supermolotBold'};
+    margin-top: ${props => props.top || '0px'};
 `
 
 
@@ -23,7 +25,7 @@ function Habilidades(){
                 Habilidades
             </Texto>
 
-            <Texto TamFonte={'20px'} Weight={'400'}>
+            <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
                 Back end
             </Texto>
 
@@ -32,7 +34,7 @@ function Habilidades(){
             <ListaHabilidades texto={'Flyway'} imagem={Nivel3} />
             <ListaHabilidades texto={'PHP'} imagem={Nivel3} />
 
-            <Texto TamFonte={'20px'} Weight={'400'}>
+            <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
                 Front end
             </Texto>
 
@@ -41,14 +43,14 @@ function Habilidades(){
             <ListaHabilidades texto={'React'} imagem={Nivel3} />
             <ListaHabilidades texto={'JQuery'} imagem={Nivel3} />
 
-            <Texto TamFonte={'20px'} Weight={'400'}>
+            <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
                 Qualidade
             </Texto>
 
             <ListaHabilidades texto={'Teste Unitários'} imagem={Nivel3} />
             <ListaHabilidades texto={'Testes de Integração'} imagem={Nivel2} />
 
-            <Texto TamFonte={'20px'} Weight={'400'}>
+            <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
                 Outros
             </Texto>
             <ListaHabilidades texto={'Git'} imagem={Nivel3} />
