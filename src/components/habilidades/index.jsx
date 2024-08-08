@@ -13,7 +13,7 @@ const Texto = styled.h1`
     font-size: ${props => props.TamFonte || '18px'};
     font-Weight: ${props => props.Weight || '1px'};
     color: #292929;
-    font-family: ${props => props.fontFamily || 'supermolotBold'};
+    font-family: ${props => props.fontFamily || 'Supermolot Bold'};
     margin-top: ${props => props.top || '0px'};
 `
 

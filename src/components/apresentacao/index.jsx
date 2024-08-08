@@ -7,7 +7,7 @@ const ContainerApresentacao = styled.div`
 const Texto = styled.h1`
     font-size: ${props => props.TamFonte || '18px'};
     font-Weight: ${props => props.Weight || '1px'};
-    font-family: ${props => props.fontFamily || 'supermolotBold'};
+    font-family: ${props => props.fontFamily || 'Supermolot Bold'};
     color: #292929;
 `
 
@@ -18,10 +18,10 @@ function Apresentacao(){
             <Texto TamFonte={'36px'} Weight={'400'}>
                 Olá, meu nome é
             </Texto>
-            <Texto TamFonte={'80px'} Weight={'700'} fontFamily={'robotoFlex'}>
+            <Texto TamFonte={'80px'} Weight={'700'} fontFamily={'Roboto Flex'}>
                 Samara Bastos
             </Texto>
-            <Texto TamFonte={'36px'} Weight={'400'} fontFamily={'supermolotRegular'}>
+            <Texto TamFonte={'36px'} Weight={'400'} fontFamily={'Supermolot Regular'}>
                 Sou desenvolvedora FullStack na DBServer
             </Texto>
         </ContainerApresentacao>

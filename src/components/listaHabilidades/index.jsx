@@ -10,14 +10,14 @@ const TextoListaHabilidades = styled.h1`
     font-size: 16px;
     font-Weight: 300;
     color: #292929;
-    font-family: ${props => props.fontFamily || 'supermolotBold'};
+    font-family: ${props => props.fontFamily || 'Supermolot Bold'};
 `
 
 
 function ListaHabilidades({texto,imagem}){
     return(
         <ContainerListaHabilidades>
-            <TextoListaHabilidades fontFamily={"robotoFlex"}>
+            <TextoListaHabilidades fontFamily={"Roboto Flex"}>
                 {texto}
             </TextoListaHabilidades>
             <img src={imagem} alt="Habilidades" />

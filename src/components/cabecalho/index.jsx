@@ -31,7 +31,7 @@ const Lista = styled.ul`
 `
 
 const Itens = styled.li`
-    font-family: ${props => props.fontFamily || 'supermolotBold'};
+    font-family: ${props => props.fontFamily || 'Supermolot Bold'};
     font-size: 18px;
     font-weight: 400;
     &:hover {
