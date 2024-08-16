@@ -9,6 +9,10 @@ const Texto = styled.h1`
     font-Weight: ${props => props.Weight || '1px'};
     font-family: ${props => props.fontFamily || 'Supermolot Bold'};
     color: #292929;
+
+    @media (max-width: 584px) {
+        font-size: 40px;
+    }
 `
 
 
