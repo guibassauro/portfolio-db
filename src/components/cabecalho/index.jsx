@@ -3,7 +3,6 @@ import logo from '../../assets/logoDB.svg';
 import GitHub from '../../assets/gitHub.svg';
 import Linkedin from '../../assets/linkedin.svg';
 import Curriculo from '../../assets/Samara_Bastos_Desenvolvedora.pdf';
-import { Flex } from '@chakra-ui/react';
 import { Link  } from 'react-router-dom';
 
 const Background = styled.div`
@@ -21,9 +20,7 @@ const Background = styled.div`
     }
 
     @media (max-width: 584px) {
-        flex-direction: column;
         padding: 10px 10px 10px 10px;
-        height: 120px;
         justify-content: space-around;
     } 
 `
@@ -32,6 +29,27 @@ const Imagem = styled.img`
         cursor: pointer;
     }
 `
+
+const Menu = styled.div`
+    display: flex;
+    gap: 50px;
+
+    @media (max-width: 584px) {
+        gap: 10px;
+    }
+`
+
+const LogoEstilizada = styled.img`
+    &:hover {
+        cursor: pointer;
+    }
+
+    @media (max-width: 584px) {
+        display: none;
+    }
+
+`
+
 const Lista = styled.ul`
     display: flex;
     list-style: none;
@@ -58,9 +76,9 @@ const Itens = styled.li`
 function Cabecalho(){
     return(
         <Background>
-            <Flex style={{gap: '50px'}}> 
+            <Menu> 
                 <Link to={"https://db.tec.br/"} target="_blank">
-                    <Imagem src={logo} alt="logo" />
+                    <LogoEstilizada src={logo} alt="logo" />
                 </Link>
                 <Lista>
                     <Link to={"/"}> 
@@ -75,15 +93,15 @@ function Cabecalho(){
                         <Itens>Projetos</Itens>
                     </Link>
                 </Lista>
-            </Flex>
-            <Flex style={{gap: '50px'}}>
+            </Menu>
+            <Menu>
                 <Link to={"https://github.com/Samara-Bastos"} target="_blank">
                     <Imagem src={GitHub} alt="Link GitHub"/>
                 </Link>
                 <Link to={"https://www.linkedin.com/in/samara-bastos-397375241/"} target="_blank"> 
                     <Imagem src={Linkedin} alt="Link Linkedin"/>
                 </Link>
-            </Flex>
+            </Menu>
         </Background>
     )
 }
