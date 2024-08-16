@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import logo from '../../assets/logoDBFooter.svg';
+import { Link  } from 'react-router-dom';
 
 const Background = styled.div`
     background-color: #BEE7F9;
@@ -19,11 +20,11 @@ const Imagem = styled.img`
 
 
 function Cabecalho(){
-    const DB = () => { window.open("https://db.tec.br/")};
-
     return(
         <Background>
-            <Imagem onClick={DB} src={logo} alt="Link pro site da DB" />
+            <Link to={"https://db.tec.br/"} target="_blank">
+                <Imagem  src={logo} alt="Link pro site da DB" />
+            </Link>
         </Background>
     )
 }

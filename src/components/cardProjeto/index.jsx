@@ -64,7 +64,7 @@ function CardProjeto({imagem, titulo, tecnologias, descricao, link}){
                 <Titulo> {titulo} </Titulo>
                 <Tecnologias> {tecnologias} </Tecnologias>
                 <Descricao fontFamily={"Roboto Flex"}> {descricao} </Descricao>
-                <Link to={link} style={{ display: 'flex', justifyContent: 'center' }}>
+                <Link to={link} target="_blank" style={{ display: 'flex', justifyContent: 'center' }}>
                     <Botao>Acessar</Botao>
                 </Link>
             </Padding>
