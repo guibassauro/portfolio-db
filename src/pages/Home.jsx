@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Apresentacao from "../components/apresentacao";
-import Foto from '../assets/foto.jpg'
+import Foto from '../assets/foto.png'
 import Sobre from "../components/sobre";
 import Habilidades from "../components/habilidades";
 

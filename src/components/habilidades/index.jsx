@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import ListaHabilidades from '../listaHabilidades/index';
+import Nivel1 from '../../assets/habilidade1.svg';
 import Nivel2 from '../../assets/habilidade2.svg';
 import Nivel3 from '../../assets/habilidade3.svg';
 import Nivel4 from '../../assets/habilidade4.svg';
@@ -26,37 +27,37 @@ function Habilidades(){
             </Texto>
 
             <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
-                Back end
+                Qualidade
+            </Texto>
+
+            <ListaHabilidades texto={'Teste Unitário'} imagem={Nivel3} />
+            <ListaHabilidades texto={'Teste de Integração'} imagem={Nivel2} />
+            <ListaHabilidades texto={'REST Assurence'} imagem={Nivel3} />
+            <ListaHabilidades texto={'Sellenium'} imagem={Nivel3} />
+            <ListaHabilidades texto={'Postman'} imagem={Nivel4} />
+
+            <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
+                Backend
             </Texto>
 
             <ListaHabilidades texto={'Java'} imagem={Nivel3} />
-            <ListaHabilidades texto={'Spring boot'} imagem={Nivel3} />
-            <ListaHabilidades texto={'Flyway'} imagem={Nivel3} />
-            <ListaHabilidades texto={'PHP'} imagem={Nivel3} />
+            <ListaHabilidades texto={'Spring boot'} imagem={Nivel2} />
 
             <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
-                Front end
+                Frontend
             </Texto>
 
             <ListaHabilidades texto={'HTML'} imagem={Nivel4} />
             <ListaHabilidades texto={'CSS'} imagem={Nivel4} />
-            <ListaHabilidades texto={'React'} imagem={Nivel3} />
-            <ListaHabilidades texto={'JQuery'} imagem={Nivel3} />
-
-            <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
-                Qualidade
-            </Texto>
-
-            <ListaHabilidades texto={'Teste Unitários'} imagem={Nivel3} />
-            <ListaHabilidades texto={'Testes de Integração'} imagem={Nivel2} />
+            <ListaHabilidades texto={'React'} imagem={Nivel1} />
 
             <Texto TamFonte={'20px'} Weight={'400'} top={'10px'}>
                 Outros
             </Texto>
-            <ListaHabilidades texto={'Git'} imagem={Nivel3} />
+            <ListaHabilidades texto={'Git'} imagem={Nivel2} />
             <ListaHabilidades texto={'GitHub'} imagem={Nivel3} />
             <ListaHabilidades texto={'SQL'} imagem={Nivel3} />
-            <ListaHabilidades texto={'Docker'} imagem={Nivel2} />
+            <ListaHabilidades texto={'Docker'} imagem={Nivel1} />
 
         </ContainerHabilidades>
     )

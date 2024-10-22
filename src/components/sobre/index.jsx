@@ -21,11 +21,11 @@ function Sobre(){
                 Sobre mim
             </Texto>
             <Texto TamFonte={'18px'} Weight={'300'} fontFamily={"Roboto Flex"}>
-                Sou desenvolvedora há pouco mais de um ano e amo o que faço! Mas nem sempre foi assim. Minha jornada começou em 2019, quando eu estava finalizando o ensino médio. Minha mãe me mostrou uma publicação de um novo curso no Instituto Federal para 'consertar computadores' e, curiosa, me inscrevi. Era um curso de programação para desenvolver sistemas. Me arrependi amargamente, pois eu não conseguia entender nada, não conseguia estágio, enfim, foi um caos e eu desisti. Terminei o ensino médio e consegui uma bolsa para cursar marketing. Enquanto cursava a graduação, minha mente ainda estava na TI. Eu não estava aceitando muito bem que tinha desistido de uma profissão por ter achado difícil, e, para piorar, eu não estava me identificando nem um pouco com marketing.
+                Comecei a estudar programação a três anos quando fazia uma busca por alguma faculdade que me interessasse, sempre gostei de tecnologia, mas nunca havia me aventurado de verdade na área, foi então que fiz um curso básico sobre HTML, CSS e JavaScript. Em algum momento, vi que aquilo realmente me fazia feliz e que eu genuinamente me divertia enquanto cria as páginas, mesmo que básicas.
                 <br />
-                Finalizei a faculdade, mas, ao invés de tentar emprego na área de marketing, comecei a estudar programação sozinha. Achei um ótimo curso de algoritmos com o Guanabara e me empenhei. Finalmente peguei o jeito; só me faltava fazer uma boa base na lógica e ser mais proativa com meus estudos.
+                Foi então que decidi que iria fazer Ciências da Computação na faculdade da minha cidade, cada aula era algo novo e divertido que aprendíamos, a cada desafio concluído eu tinha mais certeza da escolha que havia tomado. Assim, veio o terceiro semestre e finalmente aprendemos sobre Java, eu não entendia muito bem o seu funcionamento, mas vários amigos do curso já trabalhavam com essa linguagem, então me dediquei a entender ela ao máximo para fazer parte das conversas.
                 <br />
-                Voltei e concluí o meu curso técnico. Hoje, curso a graduação em Engenharia de Software e, em agosto de 2024, completo dois anos trabalhando na área.
+                Após o termino do semestre, não tivemos mais contato com essa tecnologia na faculdade, mas continuei a estudá-la por conta propria, pois havia gostado muito dela. Entrei na DB alguns meses depois como trainee de Quality Assurance e tenho me dedicado a aprender mais sobre esta área desde então.
             </Texto>
             
         </ContainerSobre>
