@@ -5,7 +5,7 @@ const ContainerCardProjeto = styled.div`
     background-color: #F5F5F5;
     border-radius: 8px;
     width: 306px;
-    height: 488px;
+    height: 600px;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
 
 `
@@ -48,6 +48,7 @@ const Botao = styled.button`
     width: 274px;
     border-radius: 8px;
     height: 44px;
+    margin-bottom: 10px;
     font-family: ${props => props.fontFamily || 'Supermolot Bold'};
 `
 
@@ -56,7 +57,7 @@ const Padding = styled.div`
 `
 
 
-function CardProjeto({imagem, titulo, tecnologias, descricao, link}){
+function CardProjeto({imagem, titulo, tecnologias, descricao, link, link2}){
     return(
         <ContainerCardProjeto>
             <Imagem src={imagem} alt="imagem do projeto" />
@@ -66,6 +67,9 @@ function CardProjeto({imagem, titulo, tecnologias, descricao, link}){
                 <Descricao fontFamily={"Roboto Flex"}> {descricao} </Descricao>
                 <Link to={link} target="_blank" style={{ display: 'flex', justifyContent: 'center' }}>
                     <Botao>Acessar</Botao>
+                </Link>
+                <Link to={link2} target="_blank" style={{ display: 'flex', justifyContent: 'center' }}>
+                    <Botao>Cenário de testes</Botao>
                 </Link>
             </Padding>
         </ContainerCardProjeto>

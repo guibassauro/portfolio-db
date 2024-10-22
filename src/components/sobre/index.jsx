@@ -21,7 +21,7 @@ function Sobre(){
                 Sobre mim
             </Texto>
             <Texto TamFonte={'18px'} Weight={'300'} fontFamily={"Roboto Flex"}>
-                Comecei a estudar programação a três anos quando fazia uma busca por alguma faculdade que me interessasse, sempre gostei de tecnologia, mas nunca havia me aventurado de verdade na área, foi então que fiz um curso básico sobre HTML, CSS e JavaScript. Em algum momento, vi que aquilo realmente me fazia feliz e que eu genuinamente me divertia enquanto cria as páginas, mesmo que básicas.
+                Comecei a estudar programação a três anos quando fazia uma busca por alguma faculdade que me interessasse, sempre gostei de tecnologia, mas nunca havia me aventurado de verdade na área, foi então que fiz um curso básico sobre HTML, CSS e JavaScript. Em algum momento, vi que aquilo realmente me fazia feliz e que eu genuinamente me divertia enquanto criava as páginas, mesmo que básicas.
                 <br />
                 Foi então que decidi que iria fazer Ciências da Computação na faculdade da minha cidade, cada aula era algo novo e divertido que aprendíamos, a cada desafio concluído eu tinha mais certeza da escolha que havia tomado. Assim, veio o terceiro semestre e finalmente aprendemos sobre Java, eu não entendia muito bem o seu funcionamento, mas vários amigos do curso já trabalhavam com essa linguagem, então me dediquei a entender ela ao máximo para fazer parte das conversas.
                 <br />
